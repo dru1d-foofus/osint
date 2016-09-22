@@ -1,8 +1,11 @@
 #! /usr/bin/python3
-## dru1d
-## Original PoC Mukarram Khalid (SOURCE: https://mukarramkhalid.com/python-making-your-own-google-scraper-mass-exploiter/)
-## 09/21/16
-###################
+#############################################################################################
+## dru1d                                                                                    #
+## Original PoC Mukarram Khalid                                                             #
+##(SOURCE: https://mukarramkhalid.com/python-making-your-own-google-scraper-mass-exploiter/)#
+## Version 1.0 - 09/21/16                                                                   #
+#############################################################################################
+
 '''
 Usage:
   googleScraper.py <dorks> <search> <pages> <processes>
