@@ -43,7 +43,7 @@ def get_urls(dork_string, search_string, start):
     h3tags      = soup.find_all( 'h3', class_='r' )
     for h3 in h3tags:
         try:
-#             temp_url.append( re.search('url\?q=(.+?)\&sa', h3.a['href']).group() )
+#             temp_url.append( re.search('url\?q=(.+?)\&sa', h3.a['href']).group(1) )
              temp_name.append(h3.get_text())
         except:
             continue
